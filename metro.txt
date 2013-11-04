@@ -1,0 +1,7 @@
+"metro"
+{
+	"base"		"nutscript"
+	"title"		"Metro 2033"
+	"author"	"Night"
+	"menusystem" "1"
+}
