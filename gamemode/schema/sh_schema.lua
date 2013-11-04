@@ -7,5 +7,10 @@ SCHEMA.uniqueID = "metro" -- Schema will be a unique identifier stored in the da
 -- Configure some stuff specific to this schema.
 nut.currency.SetUp("bullet", "bullets")
 nut.config.menuMusic = ""
+nut.config.mainColor = Color(247, 168, 64)
+nut.config.dateStartMonth = 6
+nut.config.dateStartDay = 12
+nut.config.dateStartYear = 2033
 
 nut.util.Include("sv_hooks.lua")
+nut.util.Include("cl_hooks.lua")
